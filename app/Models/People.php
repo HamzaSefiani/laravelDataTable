@@ -12,6 +12,9 @@ class People extends Model
     protected $fillable = ['name', 'city_id'];
 
 
+
+        // Relation avec la classe City
+
     public function city()
 {
     return $this->belongsTo(City::class);

@@ -14,10 +14,15 @@ class City extends Model
     protected $fillable = ['name', 'country_id'];
 
 
+        // Relation avec la classe Country
+
     public function country()
 {
     return $this->belongsTo(Country::class);
 }
+
+
+        // Relation avec la classe People
 
 public function people()
 {

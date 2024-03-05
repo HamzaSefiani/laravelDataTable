@@ -15,7 +15,7 @@ class Country extends Model
     ];
 
 
-    // Relation 
+    // Relation avec la classe City
 
     public function cities()
     {
