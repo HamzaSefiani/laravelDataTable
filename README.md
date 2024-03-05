@@ -9,7 +9,7 @@ Pour démarrer avec ce projet, suivez ces étapes :
 
 1. Clonez le dépôt sur votre machine locale :
 
-git clone <repository-url>
+git clone <https://github.com/HamzaSefiani/laravelDataTable.git>
 
 
 
