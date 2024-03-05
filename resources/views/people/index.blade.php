@@ -8,8 +8,8 @@
 <table id="cities-table" class="table  table-bordered  data-table">
         <thead> 
             <tr>
-                <th>ID</th>
-                <th>Nom</th>
+                <th>No</th>
+                <th>Personnes</th>
             </tr>
         </thead>
         <tbody>

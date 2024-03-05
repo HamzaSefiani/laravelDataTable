@@ -8,8 +8,8 @@
 <table id="cities-table" class="table  table-bordered  data-table">
         <thead> 
             <tr>
-                <th>ID</th>
-                <th>Nom</th>
+                <th>No</th>
+                <th>Ville</th>
             </tr>
         </thead>
         <tbody>
@@ -27,7 +27,7 @@
 <script type="text/javascript">
         $(document).ready(function() {
             $('.data-table').DataTable(); // Initialise la DataTable pour le tableau des villes
-        }).on('click', 'tr:not(:first-child)', function () { //Ajoute un gestionnaire de clic sur les lignes du tableau sauf la premier ligne
+        }).on('click', 'tbody tr', function () { //Ajoute un gestionnaire de clic sur les lignes du tableau 
         var cityId = $(this).find('td:first').text(); 
        
         window.location.href = "people/"+cityId;  // Redirige vers la route pour afficher les personnes de la ville
